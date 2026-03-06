@@ -47,6 +47,15 @@ After editing `config.json`:
 3. Click **Run workflow**.
 4. Wait for the workflow to finish. The playlist will now be updated with your unique client ID.
 
+### Step 5: Access Your M3U8 Playlist
+
+After running the workflow:
+
+1. Go to the `output/` folder in your forked repository.  
+2. You will find your **personalized M3U8 playlist** (`plutotv_us.m3u8`) that uses your own client ID.  
+3. Open this file in your preferred IPTV player (VLC, TiviMate, IPTV Smarters, etc.) to start streaming.  
+
+> **Note:** Each user will have their own playlist file generated automatically with their unique client ID and JWT token.
 ---
 
 ### **⚡ Automatic Token Update**
